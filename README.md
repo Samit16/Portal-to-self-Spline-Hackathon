@@ -49,18 +49,19 @@ Edit
 
 To run this project locally:
 
-1. **Clone the repo:**
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/Portal-to-self-Spline-Hackathon.git
 cd Portal-to-self-Spline-Hackathon
-2. **Install dependencies:**
 
-bash
+### 2. Install dependencies
+
+```bash
 Copy
 Edit
 npm install
-3. **Start the development server:**
+### 3. **Start the development server:**
 
 bash
 Copy
