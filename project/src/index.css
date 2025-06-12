@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    cursor: none;
+  }
+  
+  body {
+    font-family: 'Space Grotesk', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  @keyframes glow {
+    from { box-shadow: 0 0 20px rgba(66, 153, 225, 0.5); }
+    to { box-shadow: 0 0 40px rgba(66, 153, 225, 0.8); }
+  }
+  
+  .text-shadow {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+}
